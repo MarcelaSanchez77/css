@@ -1,0 +1,17 @@
+ body{
+    background-color: #00c3ff;
+ }
+ h1{
+    color:aliceblue
+ }
+ main h1{
+    color: blueviolet;
+ }
+ .color-titulo{
+    color: purple;
+ }
+
+ #identificador{
+    background-color: aquamarine;
+    color: black;
+ }
