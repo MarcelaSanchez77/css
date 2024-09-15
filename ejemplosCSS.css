@@ -1,0 +1,35 @@
+.contenedor h2 {
+    color: rgb(255, 0, 221);
+}
+
+h1{color: rgb(217, 255, 205);}
+
+h1 #nombre {color: blueviolet;}
+
+*{color: bisque;}
+
+div[lang] {
+    font-weight: bold;
+  }
+
+  span {
+    background-color: white;
+  }
+  div span {
+    background-color: DodgerBlue;
+  }
+
+  span {
+    background-color: white;
+  }
+  div > span {
+    background-color: DodgerBlue;
+  }
+
+  li:first-of-type + li {
+    color: red;
+  }
+
+  p ~ span {
+    color: rgb(0, 255, 34);
+  }
