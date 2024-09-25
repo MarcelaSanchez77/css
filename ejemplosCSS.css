@@ -6,7 +6,7 @@ h1{color: rgb(217, 255, 205);}
 
 h1 #nombre {color: blueviolet;}
 
-*{color: bisque;}
+*{color: rgb(7, 4, 1);}
 
 div[lang] {
     font-weight: bold;
@@ -33,3 +33,70 @@ div[lang] {
   p ~ span {
     color: rgb(0, 255, 34);
   }
+
+  .contenedor {
+    margin: auto;
+    width: 66%;
+  }
+
+  .contenedor{
+    margin: 10px 20px 30px 40px     
+  }
+
+  div {
+    margin: 2rem 0;
+    background: lavender;
+  }
+  
+  p {
+    margin: 0.4rem 0 1.2rem 0;
+    background: rgb(179, 19, 139);
+  }
+
+  .contenedor{
+    padding: 80px 80px 80px 0;
+      }
+
+  .contenedor{
+    element {
+      border: 8px solid #000;
+  }
+}
+ 
+  p{
+    border: rgb(0, 204, 255) 5px dotted;
+  }  
+  .my-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .my-button:hover {
+    background-color: #45a049;
+  }
+  
+  .my-button:active {
+    background-color: #3e8e41;
+
+  }
+  h1 {
+    color: red;
+  }
+  
+  h1 {
+    color: blue;
+  }
+
+  .padre {
+    color: green;
+    border: 3px solid red;
+  }
+  
+  .hijo {
+    border: inherit;
+  }
+
