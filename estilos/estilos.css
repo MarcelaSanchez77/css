@@ -1,0 +1,31 @@
+ body{
+    background-color: #00c3ff;
+ }
+ h1{
+    color:aliceblue
+ }
+ main h1{
+    color: blueviolet;
+    font: size 40px;    
+ }
+ main p{
+   color: steelblue;
+ }
+ .color-titulo{
+    color: purple;
+ }
+
+ #identificador{
+    background-color: aquamarine;
+    color: rgb(158, 35, 35);
+ }
+
+ div.contenedor {background : rgb(11, 122, 122);}
+
+ [href="https://oferta.senasofiaplus.edu.co/"]
+  { color: #fff; 
+    text-decoration: none;
+ }
+ 
+ h1,h2{color: brown;
+font-size: 45 px;}
