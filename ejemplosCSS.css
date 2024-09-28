@@ -100,3 +100,133 @@ div[lang] {
     border: inherit;
   }
 
+  div {
+    border: 2px dashed #00f;
+    border-radius: 5px;
+  }
+
+  div class ejemplo{
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid rgb(255, 0, 128);
+    border-radius: 20px 10px 30px 5px;
+  }
+  div class .contenedor {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  img {
+    filter: drop-shadow(10px 10px 5px rgb(192, 38, 38));
+  }
+  
+  div {
+    background-color: rgb(100, 150, 200);  /* Color azul claro */
+  }
+  
+  p {
+    color: rgba(255, 100, 0, 0.8);  /* Color naranja con un poco de transparencia */
+  }
+  
+  button {
+    background-color: #2ecc71;  /* Un tono de verde */
+    color: #FFFFFF;  /* Texto blanco */
+  }
+
+color: red;        /* Rojo */
+color: blue;       /* Azul */
+color: green;      /* Verde */
+color: black;      /* Negro */
+color: white;      /* Blanco */
+color: gray;       /* Gris */
+color: orange;     /* Naranja */
+color: purple;     /* Morado */
+color: yellow;     /* Amarillo */
+color: pink;       /* Rosa */
+
+div {
+  background: #3498db url('imagenes/cheche.jpeg') no-repeat center center / cover fixed;
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  background-image: url('imagenes/cheche.jpeg');
+  background-position: right bottom;
+}
+div {
+  width: 300px;
+  height: 300px;
+  background-image: url('imagenes/cheche.jpeg');
+  background-size: cover;
+}
+div {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(45deg, yellow, green);
+}
+
+div {
+  width: 300px;   /* Ancho de 300 píxeles */
+  height: 200px;  /* Altura de 200 píxeles */
+}
+
+h1 {
+  font-size: 24px;  /* Tamaño de fuente de 24 píxeles */
+}
+
+html {
+  font-size: 16px;  /* Tamaño de fuente base */
+}
+
+h1 {
+  font-size: 2rem;  /* 2 veces el tamaño base, que sería 32px */
+}
+
+p {
+  font-size: 1rem;  /* Igual al tamaño base, que es 16px */
+}
+
+.container {
+  font-size: 16px;  /* Tamaño de fuente base para el contenedor */
+}
+
+h2 {
+  font-size: 2em;  /* 2 veces el tamaño del contenedor, que sería 32px */
+}
+
+p {
+  font-size: 0.875em;  /* 0.875 veces el tamaño del contenedor, que sería 14px */
+}
+.sidebar {
+  width: 25%;      /* Ancho del 25% del contenedor padre */
+  max-width: 300px; /* Limitar el ancho máximo a 300 píxeles */
+}
+
+.main-content {
+  width: 75%;      /* Ancho del 75% del contenedor padre */
+  max-width: 600px; /* Limitar el ancho máximo a 600 píxeles */
+}
+
+.header {
+  height: 10vh;      /* Altura del 10% de la ventana gráfica */
+}
+
+.sidebar {
+  width: 20vw;       /* Ancho del 20% de la ventana gráfica */
+}
+
+.sidebar {
+  width: 25%;        /* Ancho del 25% del contenedor padre */
+  max-width: 300px;  /* Limitar el ancho máximo a 300 píxeles */
+  background-color: #ccc;  /* Color de fondo */
+}
+
+.main-content {
+  width: 75%;        /* Ancho del 75% del contenedor padre */
+  max-width: 600px;  /* Limitar el ancho máximo a 600 píxeles */
+  background-color: #e0e0e0;  /* Color de fondo */
+}
