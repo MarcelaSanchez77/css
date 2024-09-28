@@ -135,18 +135,7 @@ div[lang] {
     background-color: #2ecc71;  /* Un tono de verde */
     color: #FFFFFF;  /* Texto blanco */
   }
-
-color: red;        /* Rojo */
-color: blue;       /* Azul */
-color: green;      /* Verde */
-color: black;      /* Negro */
-color: white;      /* Blanco */
-color: gray;       /* Gris */
-color: orange;     /* Naranja */
-color: purple;     /* Morado */
-color: yellow;     /* Amarillo */
-color: pink;       /* Rosa */
-
+  
 div {
   background: #3498db url('imagenes/cheche.jpeg') no-repeat center center / cover fixed;
 }
